@@ -1,6 +1,6 @@
 const axios = require("axios")
 const URL = 'https://nodejs.org'
-
+//comment
 const getSomething = async (url) => {
     try {
         const {data, status} = await axios.get(url)
